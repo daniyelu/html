@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <style>
+       .parent{
+           width: 100VW;
+           height: 100VH;
+           color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .child1{
+           width: 50%;
+           height: 100%;
+           background-color: aqua;
+           box-shadow: 0px 0px 5px green;
+
+           
+       }
+       .child2{
+           width: 50%;
+           height: 100%;
+           background-color:white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          
+       }
+       *{
+           box-sizing: border-box;
+       }
+       body{
+           margin: 0px;
+       }
+       .ac{
+            color: black;
+            text-align: center;
+       }
+       button{
+                background-color: green;
+                border: 0px;
+                width: 100%;
+                height: 30px;      
+               
+       }
+       label{
+            color: black;
+            text-align: center;
+            padding: 50px;
+       }
+       .na{
+        color: green;
+
+       }
+    
+       
+       
+   </style>
+<body>
+    <div class="parent">
+    <div class="child1">
+        <img src="stand.jpg" width="100%" height="100%">
+    </div>
+    <div class="child2">
+        <div class="center">
+        <p class="ac"><b>ACCOUNT &nbsp;  LOGIN</b></p>
+        <input type="text" placeholder="User name"><input type="text" placeholder="password">
+        <br>
+        <br>
+        <button class="s">SIGN IN</button>
+        <br>
+        <br>
+        <label >Forgot<span class="na"> User name / password?</span></label>
+        
+
+    </div>
+    </div>
+    
+   
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .parent{
+            width:100vw;
+            height: 100vh;
+            display: flex;
+           
+        }
+        .parent1{
+            width: 25%;
+            height: 100%;
+            background-color: rgb(6, 6, 26);
+       }
+       .parent2{
+           width: 100%;
+           height: 100%;
+       }
+       p{
+           text-align: left;
+           color:white;
+           font-size: large;
+           padding: 20px;
+           margin-left: 20px;
+           font-family: 'Times New Roman', Times, serif;
+       }
+       .child1{
+           width: 100%;
+           height: 10%;
+           background-color:rgb(43, 42, 42);
+           display: flex;
+           justify-content: flex-start;
+           align-items: center;
+           padding-left: 30px;
+           
+       }
+       input{
+           text-align: left;
+           padding-left: 30px;
+        
+           
+       }
+       .child2{
+           width: 100%;
+           height: 30%;
+            text-align: left;
+            padding: 5px;
+            margin: 5px;
+            background-color:white;
+           display: flex;
+           justify-content: space-around;
+       }
+       .child3{
+           width: 100%;
+           height: 55%;
+           background-color: aquamarine;
+           display: flex;
+           justify-content: space-between;
+       }
+       .sign{
+           width: 350px;
+           height: 170px;
+           background-color: blue;
+           text-align: left;
+            /* padding-left: 50px;
+           padding-top: 10px; */
+       }
+       .revenue{
+           width: 350px;
+           height: 170px;
+           background-color: green;
+           margin-bottom: 10Px;
+           text-align: left;
+          
+       }
+       .open{
+           width: 350px;
+           height: 170px;
+           background-color: red;
+           text-align: left;
+           padding-left: 50px;
+           padding-top: 10px;
+
+
+       }
+       .be{
+           width: 600px;
+           height:350px;
+           background-color: rgb(217, 166, 166);
+           position: relative;
+           left: 50px; 
+           top: 10px; 
+           padding-left:50px ;
+           padding-top: 10px;
+       }
+       .no{
+        background-color: blueviolet;
+        width: 510px;
+           height:250px;
+           position: relative;
+           top: 15px; 
+           right: 23px; 
+           padding-left: 50px;
+           padding-top: 10px;
+       }
+       .select
+       {
+           text-align: right;
+       }
+       *{
+        box-sizing: border-box;
+       }
+       body{
+        margin: 0px;
+       }
+
+
+       
+
+    </style>
+
+<body>
+    <div class="parent">
+        <div class="parent1">
+            <p>Spur</p>
+            <p>Dashboard</p>
+            <p>Charts</p>
+            <p>Layouts</p>
+            <p>About</p>
+        </div>
+        <div class="parent2">
+            <div class="child1">
+                <input placeholder="Type to search" type="text">
+            </div>
+            <div class="child2">
+            
+                    <div class="sign">
+                        <h2>Sign ups</h2>
+                        <h1>114</h1>
+                        <p>+25% from this month</p>
+                     </div>
+                    
+                
+               <div class="revenue">
+               <h2> Revenue</h2>
+               <h1>$25,541</h1>
+               <p>+17.5% from last month</p>
+                </div>
+               <div CLASS="open">
+                <h2>Open tickets</h2>
+                <h1>5</h1>
+            </div>
+                
+            </div>
+
+            <div class="child3">
+          <h2><b> <div class="be">Bar chart</div></b></h2>
+          <h2><div class="no">Notifcations</div></h2>
+        </div>
+    </div>
+
+</body>
+</head>
+</html>
